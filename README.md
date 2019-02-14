@@ -1,3 +1,7 @@
+#FormStack - KAFKA
+This POC project Exposes an endpoint, that expects a FormStack WebHook api call.
+The endpoint then sends the call to a Kafka Consumer
+
 ###Install Kafka
 brew install kafka
 
