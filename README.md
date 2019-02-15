@@ -15,6 +15,9 @@ kafka-console-producer --broker-list localhost:9092 --topic test
 ## Consumer console:
 kafka-console-consumer --bootstrap-server localhost:9092 --topic test --from-beginning  
 
+## Clone and run project:  
+gradle bootRun  
+
 ## Expose public endpoint on localhost:  
 https://ngrok.com/download  
 
